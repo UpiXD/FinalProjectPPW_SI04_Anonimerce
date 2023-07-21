@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,6001,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #eaeaea;
+    font-family: 'Poppins', sans-serif;
+    color: #2d2d2d;
+    font-size: 14px;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {
+.form-control {
+    width: 350px;
+}
+}
+
+@media screen and (min-width: 994px) {
+.navbar-nav {
+    text-align: center;
+}
+}
+
+footer {
+    
+    text-align: center;
+    padding: 1rem 0 2rem;
+    margin-top: 2rem;
+  }
+  
+  footer .socials {
+    padding: 1rem 0;
+  }
+  
+  footer .socials a {
+    color: #fff;
+    margin: 1rem;
+  }
+  
+  footer .socials a:hover,
+  footer .links a:hover {
+    color: var(--bg);
+  }
+  
+  footer .credit {
+    font-size: 0.8rem;
+  }
+  
+  footer .credit a {
+    font-weight: 700;
+  }
+
+  /*Gambar produk*/
+  .row-produk {
+    background-color: #fff;
+    margin: 0;
+    padding: 5px;
+    padding-top: 16px;
+  }
+  /*Akhir Gambar produk*/
+
+  /*Garis Nama*/
+  .garis-nama {
+    border-bottom: 2px solid #2d2d2d;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  /*Akhir Garis Nama*/
+
+  /*Button keranjang dan beli*/
+  .btn-custom {
+    padding: 15px;
+    font-size: 14px;
+  }
+  /*Akhir Button keranjang dan beli*/
+
+  /*Description/review produk*/
+  .review-img {
+    width: 50px;
+  }
+
+  .review-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .review-desc {
+    font-size: 14px;
+  }
+
+  .deskripsi {
+    height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  .deskripsi::-webkit-scrollbar {
+    display: none;
+  }
+
+  .review {
+    height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  /*Description/review produk*/
